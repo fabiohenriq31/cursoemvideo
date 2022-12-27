@@ -1,0 +1,6 @@
+x = int  (input('Digite um número: '))
+sup = (x + 1)
+ant = (x-1)
+soma = (x+x)
+mult = (x*2)
+print("O seu número é {}. \nO antecessor do seu número é {} \nO sucessor do seu número é {}. \nO seu número multiplicado por 2 é {}. \nO seu numero somado por ele mesmo é {}" .format(x, ant, sup, mult, soma))
